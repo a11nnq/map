@@ -1,0 +1,216 @@
+{
+  "main": {
+    "section1": {
+      "title": "Learning through research",
+      "description": "The oldest and one of the most prestigious technical universities in Kazakhstan, known for the developments in the fields of mining and oil business"
+    },
+    "section2": {
+      "title": "Satbayev's Commitment to Academic Excellence",
+      "description": "For more than 80 years, the university has been synonymous with technological progress and leadership in Kazakhstan."
+    },
+    "section3": {
+      "title": "Explore Our Academic Offerings Chart Your Path to Success",
+      "description": "The university curriculum introduces the teaching of modern specialties, in which currently there are no specialists in Kazakhstan."
+    },
+    "section4": {
+      "title": "Student Admission Process and Assistance from us",
+      "description": "Get higher education in the technical university №1 of Kazakhstan"
+    },
+    "settingsTitle": "Institute of digital equipment and technologies",
+    "settingsSubtitle": "The leading organization in Kazakhstan in the field of industrial automation, big data and machine intelligence.",
+    "personTitle": "Science & Technology Solutions JSC",
+    "personSubtitle": "Scientific-technological and educational center, created in order to provide the economy competitive innovative developments.",
+    "paintTitle": "Physics and technology institute",
+    "paintSubtitle": "One of the leading research institutes of Kazakhstan in the field of materials science, high energy physics and cosmic rays.",
+    "langTitle": "Institute of geological sciences of K.I. Satpayev",
+    "langSubtitle": "Allows a wide range of research in the field of regional geology, stratigraphy, mineralogy, geochemistry of solid, and many more.",
+    "bookTitle": "Institute of Metallurgy and Ore Beneficiation",
+    "bookSubtitle": "Carries out applied research and the development of new technologies in the field of mineral processing, metallurgy and materials science.",
+    "scienceTitle": "Institute of Hydrogeology and Geoecology",
+    "scienceSubtitle": "The only scientific organization in the country in the development of applied problems of hydrogeology and geo-ecology.",
+    "cardData2Title1": "7",
+    "cardData2Subtitle1": "institutions",
+    "cardData2Title2": "31",
+    "cardData2Subtitle2": "departments",
+    "cardData2Title3": "660",
+    "cardData2Subtitle3": "teachers",
+    "cardData2Title4": "114",
+    "cardData2Subtitle4": "teaching and research laboratories",
+    "cardData2Title5": "11",
+    "cardData2Subtitle5": "scientific laboratories",
+    "cardData2Title6": "3",
+    "cardData2Subtitle6": "research and educational centers",
+    "cardData2Title7": "2000",
+    "cardData2Subtitle7": "grants annually",
+    "cardData2Title8": "14",
+    "cardData2Subtitle8": "student organizations",
+    "mainText1": "Complete everything as ordered",
+    "mainText2": "Provide your last exam result",
+    "mainText3": "Choose your desired program",
+    "mainText4": "Get contact with the instructor",
+    "mainText5": "Finally get started your program",
+    "readmore": "Read more",
+    "seeAll": "See all our admission"
+  },
+  "footer": {
+    "satbayevUniversity": "Satbayev University",
+    "learningThroughResearch": "Learning through research",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "admissions": "Admissions",
+    "academics": "Academics",
+    "contactUs": "Contact Us",
+    "pages": "Pages",
+    "ourBlog": "Our Blog",
+    "ourTeam": "Our Team",
+    "testimonial": "Testimonial",
+    "cta": "CTA",
+    "followUs": "Follow Us",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+    "youtube": "Youtube"
+  },
+  "navbar": {
+    "home": "Home",
+    "academics": "Academics",
+    "contact": "Contacts",
+    "admission": "Admissions",
+    "campus": "Campus Navigation"
+  },
+  "admission": {
+    "title1": "May 16 – July 5",
+    "subtitle1": "Apply for UNT testing at app.testcenter.kz and take the UNT",
+    "title2": "June 20 – July 7",
+    "subtitle2": "Take creative exams if you have chosen a creative education program",
+    "title3": "July 13 – July 20",
+    "subtitle3": "Apply for a state educational grant at app.testcenter.kz",
+    "title4": "Get a grant",
+    "subtitle4": "Grant competition results are published in early August",
+    "mainTitle": "Student Admission Process and Assistance from us",
+    "mainsubtitle": "Get higher education in the technical university №1 of Kazakhstan",
+    "contentTitle": "UNT submission and receiving a grant",
+    "contentSubtitle": "4 times a year"
+  },
+  "academics": {
+    "section1": {
+      "title": "O.A. Baikonurov Mining and Metallurgical Institute",
+      "subtitle": "Institute Directorate: Mining and Metallurgy Building (MMB), Auditorium 232, 8 (727) 320 40 45.",
+      "cardTitle": "Educational programs:",
+      "data": {
+        "title1": "Mineral Processing",
+        "title2": "Geospatial Digital Engineering",
+        "title3": "Mining Engineering",
+        "title4": "Engineering Physics and Materials Science",
+        "title5": "Metallurgy and mineral processing",
+        "title6": "Metallurgy Recycling"
+      }
+    },
+    "section2": {
+      "title": "K. Turysoff Institute of Geology and Petroleum Engineering",
+      "subtitle": "Institute Directorate: Main academic building, Auditorium 325, 8 (727) 320 40 41.",
+      "cardTitle": "Educational programs:",
+      "data": {
+        "title1": "Drilling engineering",
+        "title2": "Petroleum engineering",
+        "title3": "Biotechnology",
+        "title4": "Water resources and water management",
+        "title5": "Geology and mineral exploration",
+        "title6": "Hydrogeology and geoecology",
+        "title7": "Hydrogeology and geotechnical engineering",
+        "title8": "Trunk networks and infrastructure",
+        "title9": "Petroleum and Ore Geophysics",
+        "title10": "Applied geology",
+        "title11": "Technology of foundry engineering",
+        "title12": "Technology of core fabrications and new materials",
+        "title13": "Technology of rare and radioactive elements",
+        "title14": "Technology of pharmaceutical production",
+        "title15": "Chemical Technology of Petrochemical and Gas Chemical Products",
+        "title16": "Chemical technology of organic substances",
+        "title17": "Chemical technology for production and processing of polymers"
+      }
+    },
+    "section3": {
+      "title": "Institute of Automatics and Information Technologies",
+      "subtitle": "Institute Directorate: Korean Center, Auditorium 302, 8 (727) 320 40 44, +7 (727) 320 41 34.",
+      "cardTitle": "Educational programs:",
+      "data": {
+        "title1": "Automation and robotics",
+        "title2": "Biomedical engineering",
+        "title3": "Information security",
+        "title4": "Information systems",
+        "title5": "Computer Sciences",
+        "title6": "Space Engineering and Technology",
+        "title7": "Robotics and Mechatronics",
+        "title8": "Telecommunications",
+        "title9": "Electronics and Electrical Engineering"
+      }
+    },
+    "section4": {
+      "title": "Institute of Power Engineering and Mechanical Engineering",
+      "subtitle": "Institute Directorate: Mechanical Engineering Building (MBC), auditorium 27, 8 (727) 320 40 36.",
+      "cardTitle": "Educational programs:",
+      "data": {
+        "title1": "Industrial Engineering",
+        "title2": "Engineering mechanics",
+        "title3": "Mathematical and computer modeling",
+        "title4": "Heat Power Engineering",
+        "title5": "Technological machines and equipment",
+        "title6": "Production technology, repair and operation of cars",
+        "title7": "Production technology, locomotive repair and operation",
+        "title8": "Transport Engineering",
+        "title9": "Operational and service engineering",
+        "title10": "Power Engineering"
+      }
+    },
+    "section5": {
+      "title": "Project Management Institute",
+      "subtitle": "Institute Directorate: Main academic building, Auditorium 415, 8 (727) 320 40 91.",
+      "cardTitle": "Educational programs:",
+      "data": {
+        "title1": "Architecture",
+        "title2": "Design",
+        "title3": "Occupational Health and Safety",
+        "title4": "Engineering Systems and Networks",
+        "title5": "Civil Engineering",
+        "title6": "Wood structures design and calculation technology",
+        "title7": "Transportation Engineering",
+        "title8": "Transport Engineering",
+        "title9": "Operational and service engineering",
+        "title10": "Transportation Facilities"
+      }
+    },
+    "section6": {
+      "title": "Project Management Institute",
+      "subtitle": "Institute Directorate: Main academic building, Auditorium 415, 8 (727) 320 40 91.",
+      "cardTitle": "Educational programs:",
+      "data": {
+        "title1": "Startup Bachelor's Degree",
+        "title2": "Business Engineering",
+        "title3": "Mathematical Economics and Data Analysis",
+        "title4": "Transportation Services",
+        "title5": "Digital Logistics"
+      }
+    }
+  },
+  "contacts": {
+    "contact": {
+      "title": "Let's talk with Us",
+      "subtitle": "We value your feedback and inquiries. Please feel free to get in touch with us using the information below.",
+      "contactInfo": "Contact Info:",
+      "phoneNumber": "Phone Number",
+      "email": "Email",
+      "address": "Address: 22 Satbaev str., 050013, Almaty, The Republic of Kazakhstan",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Input your full name in here",
+      "emailTitle": "Email",
+      "emailPlaceholder": "Input your email in here",
+      "message": "Messages",
+      "messagePlaceholder": "Input your message in here",
+      "send": "Send"
+    }
+  },
+  "campus": {
+    "title": "Campus Navigation"
+  }
+}

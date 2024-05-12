@@ -1,0 +1,207 @@
+.desktopContainer {
+  .subtitle1Height {
+    height: 10vh;
+  }
+
+  .texts {
+    margin-left: 20px;
+  }
+  .subtitle2Height {
+    height: 20vh;
+  }
+
+  .subtitle1Margin {
+    margin-top: 52px;
+  }
+
+  .subtitle2Margin {
+    margin-top: 17vh;
+  }
+
+  .normalMargin {
+    margin-left: 12px;
+  }
+
+  .fullWidthMargin {
+    margin-left: 24px;
+  }
+
+  .rounded {
+    border-radius: 12px;
+  }
+
+  .fullWidth {
+    margin-left: 24px;
+  }
+
+  .iconContainer {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .progressIcon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .progressLine {
+    width: 2px;
+    height: 100%;
+  }
+
+  .bgAlphaBlack15 {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+
+  .bgSuccessGreen {
+    background-color: #008756; /* Change color as needed */
+  }
+
+  .bgSuccessLightGreen {
+    background-color: #e6f3ee; /* Change color as needed */
+  }
+
+  .bgPrimaryLightBlue {
+    background-color: #edf1ff; /* Change color as needed */
+  }
+
+  .textNeutralDarkGrey {
+    color: #797d80; /* Change color as needed */
+  }
+
+  .textPrimaryBlue {
+    color: #355dee;
+  }
+
+  .neutralBlack {
+    color: #18191a; /* Change color as needed */
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text1 {
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+  }
+}
+
+.mobileContainer {
+  .subtitle1Height {
+    height: 84px;
+  }
+  
+  .texts {
+    margin-left: 20px;
+  }
+  .subtitle2Height {
+    height: 98px;
+  }
+  
+  .subtitle1Margin {
+    margin-top: 52px;
+  }
+  
+  .subtitle2Margin {
+    margin-top: 85px;
+  }
+  
+  .normalMargin {
+    margin-left: 12px;
+  }
+  
+  .fullWidthMargin {
+    margin-left: 24px;
+  }
+  
+  .rounded {
+    border-radius: 12px;
+  }
+  
+  .fullWidth {
+    margin-left: 24px;
+  }
+  
+  .iconContainer {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progressIcon {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .progressLine {
+    width: 2px;
+    height: 100%;
+  }
+  
+  .bgAlphaBlack15 {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  
+  .bgSuccessGreen {
+    background-color: #008756; /* Change color as needed */
+  }
+  
+  .bgSuccessLightGreen {
+    background-color: #E6F3EE; /* Change color as needed */
+  }
+  
+  .bgPrimaryLightBlue {
+    background-color: #EDF1FF; /* Change color as needed */
+  }
+  
+  .textNeutralDarkGrey {
+    color: #797D80; /* Change color as needed */
+    font-size: 15px;
+  }
+  
+  .textPrimaryBlue {
+    color: #355DEE;
+  }
+  
+  .neutralBlack {
+    color: #18191A; /* Change color as needed */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text1 {
+    font-size: 15px;
+  }
+
+  .text2 {
+    font-size: 14px;
+  }
+}

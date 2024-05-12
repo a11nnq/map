@@ -1,0 +1,33 @@
+.header {
+  height: 180px;
+  width: 100%;
+  background-color: #81c784; /* Change color as needed */
+}
+
+.stepContainer {
+  padding: 12px;
+}
+
+.footerSeparator {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd; /* Change color as needed */
+}
+
+.footerButtonContainer {
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.footerButton {
+  width: 100%;
+  justify-content: center;
+  color: #2196f3; /* Change color as needed */
+}
+
+.stepper {
+  // 'border-2 border-neutralBgGrey rounded-xl bg-neutralWhite'
+  border: 2px solid ;
+  border-color: rgb(240 242 245 / 1);
+  border-radius: 0.75rem;
+  background-color: rgb(255 255 255 / 1);
+}

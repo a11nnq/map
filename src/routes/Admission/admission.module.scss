@@ -1,0 +1,197 @@
+.container {
+  .mainContent {
+    width: 100%;
+    .section1 {
+     
+      background: #f5f5f5;
+      .topText {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          font-family: "Abhaya Libre";
+          font-weight: 400;
+          font-size: 2.9vw;
+          // line-height: 108%;
+          color: #0540f2;
+          align-self: center;
+          margin-bottom: 0;
+        }
+        p {
+          font-family: "Montserrat", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: #000;
+          align-self: center;
+          font-size: 1.4vw;
+        }
+      }
+      .stepperCard {
+        width: 60%;
+        
+        background: white;
+        margin: 1.2vh auto 0 auto;
+        border-radius: 80px;
+
+        .titles {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .title {
+            padding: 2vh 2vw;
+            font-family: "Abhaya Libre", sans-serif;
+            font-weight: 400;
+            font-size: 2vw;
+            margin: 10px 0;
+            text-align: center;
+          }
+
+          .subCard {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 90px;
+            background-color: #0540f2;
+            width: 100%;
+
+            .img {
+              width: 30px;
+              height: 30px;
+              align-self: center;
+              margin-bottom: 0;
+            }
+
+            .subtitle {
+              font-family: "Montserrat", sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              color: #fff;
+              align-self: center;
+              font-size: 16px;
+              margin: 0;
+            }
+          }
+        }
+
+        .stepperAnchor {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          padding: 24px;
+          background-color: #fff;
+          border: 1px solid #fff;
+          border-radius: 12px;
+          width: 50%;
+
+        }
+      }
+    }
+  }
+}
+
+.mobileContainer {
+  .mainContent {
+    width: 100%;
+    .section1 {
+     
+      background: #f5f5f5;
+      .topText {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          font-family: "Abhaya Libre";
+          font-weight: 400;
+          font-size: 7vw;
+          color: #0540f2;
+          text-align: center;
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        p {
+          font-family: "Montserrat", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: #000;
+          align-self: center;
+          font-size: 4vw;
+          width: 80%;
+          text-align: justify;
+          margin-bottom: 20px;
+        }
+      }
+      .stepperCard {
+        width: 85%;
+        
+        background: white;
+        margin: 0 auto;
+        border-radius: 50px;
+
+        .titles {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .title {
+            padding: 1vh 1vw;
+            font-family: "Abhaya Libre", sans-serif;
+            font-weight: 400;
+            font-size: 5vw;
+            margin: 9px 0;
+            text-align: center;
+            width: 75%;
+          }
+
+          .subCard {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // min-height: 30px;
+            background-color: #0540f2;
+            width: 100%;
+            padding: 5px 0;
+            .img {
+              width: 15px;
+              height: 15px;
+              align-self: center;
+              margin-bottom: 0;
+            }
+
+            .subtitle {
+              font-family: "Montserrat", sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              color: #fff;
+              align-self: center;
+              font-size: 14px;
+              margin: 0;
+            }
+          }
+        }
+
+        .stepperAnchor {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #fff;
+          border: 1px solid #fff;
+          border-radius: 12px;
+          width: 90%;
+
+        }
+      }
+    }
+  }
+}

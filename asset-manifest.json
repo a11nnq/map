@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/map/static/css/main.f40d712c.css",
+    "main.js": "/map/static/js/main.0e9493e1.js",
+    "static/media/student_concil.png": "/map/static/media/student_concil.6e47e9573580454e53d7.png",
+    "static/media/uni2.jpeg": "/map/static/media/uni2.a43b8a80249d4d422023.jpeg",
+    "static/media/uni1.jpg": "/map/static/media/uni1.2dc90b552a582b2c8a61.jpg",
+    "static/media/logo_desktop.png": "/map/static/media/logo_desktop.2def205e62df871aab7a.png",
+    "static/media/mainpageBg.jpg": "/map/static/media/mainpageBg.08177a6e067cc77327a4.jpg",
+    "static/media/logo_mobile.png": "/map/static/media/logo_mobile.4e038d89dda20d978437.png",
+    "static/media/book.svg": "/map/static/media/book.1618bb8f14affa4ab80358248ec78b25.svg",
+    "static/media/united-states-of-america.png": "/map/static/media/united-states-of-america.753dabc5c2af4f67e10a.png",
+    "static/media/kazakhstan.png": "/map/static/media/kazakhstan.f0587893e5e5d885111e.png",
+    "static/media/person.svg": "/map/static/media/person.8c999623d11375911553246c6a603211.svg",
+    "static/media/lang.svg": "/map/static/media/lang.434a4ed7bfc3eaeae12ee0ee908c847f.svg",
+    "static/media/science.svg": "/map/static/media/science.5458a6fc2b87d7b54fd7e40642009c7d.svg",
+    "static/media/paint.svg": "/map/static/media/paint.6355d8a7bfee4faf828076915735d098.svg",
+    "static/media/calendar.svg": "/map/static/media/calendar.f3ddd0b4602d831e81c1391637190167.svg",
+    "static/media/settings.svg": "/map/static/media/settings.cba40bd1d101de8bca051443e1c0b92f.svg",
+    "static/media/sidebarIcon.svg": "/map/static/media/sidebarIcon.1fa9c13e60781d984d7a12d9ad286c38.svg",
+    "static/media/check_circle_fill.svg": "/map/static/media/check_circle_fill.3631f0f7e11be5501e46aa392646405d.svg",
+    "static/media/caret_up.svg": "/map/static/media/caret_up.eb818b4961b5396592b54b399141f8c1.svg",
+    "static/media/caret_down.svg": "/map/static/media/caret_down.ff9ab780a3a39b300e691a8b37f2268c.svg",
+    "static/media/round-line.svg": "/map/static/media/round-line.8393abd4427f1dd4ec38ce5b4a67deff.svg",
+    "static/media/blueCheck.svg": "/map/static/media/blueCheck.957dff1637835fdbb9188960cdeb30e9.svg",
+    "index.html": "/map/index.html",
+    "static/media/blue-radiobutton.svg": "/map/static/media/blue-radiobutton.afc5a8f3c10f0d78ebe0eb1d1bc622d2.svg",
+    "static/media/circle.svg": "/map/static/media/circle.706d24670598b7124d91bb4c0dc47212.svg",
+    "main.f40d712c.css.map": "/map/static/css/main.f40d712c.css.map",
+    "main.0e9493e1.js.map": "/map/static/js/main.0e9493e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f40d712c.css",
+    "static/js/main.0e9493e1.js"
+  ]
+}

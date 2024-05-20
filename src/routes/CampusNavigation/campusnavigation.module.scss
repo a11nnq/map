@@ -1,6 +1,8 @@
 .container {
   background: #f5f5f5;
   min-height: 90vh;
+  display: flex;
+  flex-direction: column;
 
   .main {
     width: 95%;

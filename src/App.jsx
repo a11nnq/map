@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <I18nextProvider i18n={i18n}>
-        <Router basename="/">
+        <Router basename="/map">
           <Layout>
             <Routes>
               <Route path="/" element={<Main />} />

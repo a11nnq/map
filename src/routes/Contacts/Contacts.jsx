@@ -1,5 +1,5 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React from "react"; // Импорт React для использования JSX и хуков
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation для мультиязычной поддержки
 
 import { Footer } from "../../components/Footer";
 
@@ -9,11 +9,14 @@ import useIsMobile from "../../utils/useIsMobile";
 
 import styles from "./contacts.module.scss";
 
+// Определение и экспорт функционального компонента Contacts
 export const Contacts = () => {
-  const { t } = useTranslation("contacts");
-  const isMobile = useIsMobile();
+  const { t } = useTranslation("contacts"); // Использование хука useTranslation для получения функции t, которая будет использоваться для локализации строк
+  const isMobile = useIsMobile(); // Определение, отображается ли компонент на мобильном устройстве
 
+  // JSX разметка для компонента
   return (
+    // Родительский контейнер с адаптивными стилями
     <div className={isMobile ? styles.mobileContainer : styles.container}>
       <div className={styles.mainContent}>
         <div className={styles.leftContent}>

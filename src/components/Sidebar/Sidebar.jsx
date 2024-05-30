@@ -1,25 +1,27 @@
-import React from "react";
-import clsx from "clsx";
-import { Link, useLocation } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import React from "react"; // Импорт React для использования JSX и функций React в компоненте
+import clsx from "clsx"; // Импорт функции clsx для удобной работы с классами CSS, позволяя добавлять классы условно
+import { Link, useLocation } from "react-router-dom"; // Импорт компонента Link и хука useLocation из библиотеки react-router-dom
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation для поддержки многоязычности в компоненте
 
 import styles from "./sidebar.module.scss";
 
+// Объявление и экспорт функционального компонента Sidebar
 export const Sidebar = () => {
-  const location = useLocation();
-  const { t } = useTranslation("navbar");
+  const location = useLocation(); // Использование хука useLocation для доступа к текущему маршруту в приложении
+  const { t } = useTranslation("navbar"); // Использование хука useTranslation для загрузки текстовых ресурсов, специфичных для navbar
 
+  // JSX разметка, описывающая содержимое Sidebar
   return (
-    <div className={styles.sidebarMobile}>
+    <div className={styles.sidebarMobile}> 
       <div className={styles.open}>
-        <div className={styles.sidebar}>
-          <div style={{ marginTop: "15px" }} />
-          <div className={styles.navigationLinks}>
-            <Link to="/" style={{ textDecoration: "none" }}>
+        <div className={styles.sidebar}> 
+          <div style={{ marginTop: "15px" }} /> 
+          <div className={styles.navigationLinks}> 
+            <Link to="/" style={{ textDecoration: "none" }}> 
               <div
                 className={clsx(
-                  styles.button,
-                  location.pathname === "/" && styles.active
+                  styles.button, // Основной класс для стилизации кнопки
+                  location.pathname === "/" && styles.active // Добавление класса active если маршрут совпадает с текущим (выделение строкой)
                 )}
               >
                 {t("home")}

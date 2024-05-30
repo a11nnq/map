@@ -1,25 +1,28 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React from "react";  // Импорт React для использования JSX и хуков
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation из библиотеки react-i18next для локализации текста
 
 import StepperAnchor from "../../components/StepperAnchor";
 import { Footer } from "../../components/Footer/index";
 
 import { calendar } from "../../assets/images/index";
 
-import useIsMobile from "../../utils/useIsMobile";
+import useIsMobile from "../../utils/useIsMobile"; // Импорт пользовательского хука useIsMobile для определения, используется ли мобильное устройство
 
 import styles from "./admission.module.scss";
 
+// Определение и экспорт функционального компонента Admission
 export const Admission = () => {
-  const { t } = useTranslation("admission");
-  const isMobile = useIsMobile();
+  const { t } = useTranslation("admission"); // Инициализация хука useTranslation для обращения к набору переводов для "admission"
+  const isMobile = useIsMobile();   // Использование хука useIsMobile для проверки, отображается ли контент на мобильном устройстве
 
+
+  // Определение массива шагов для компонента StepperAnchor, использующее функцию t для локализации
   const steps = [
     {
       id: 1,
-      title: `${t("title1")}`,
-      isDone: false,
-      subtitle2: `${t("subtitle1")}`,
+      title: `${t("title1")}`, // Локализованный заголовок первого шага
+      isDone: false, // Статус завершения шага
+      subtitle2: `${t("subtitle1")}`, // Локализованный второй подзаголовок
     },
     {
       id: 2,
@@ -41,7 +44,9 @@ export const Admission = () => {
     },
   ];
 
+  // Основная JSX разметка компонента
   return (
+    // Контейнер с адаптивным классом стиля
     <div className={isMobile ? styles.mobileContainer : styles.container}>
       <div className={styles.mainContent}>
         <div className={styles.section1}>

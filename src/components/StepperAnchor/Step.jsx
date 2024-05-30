@@ -1,5 +1,5 @@
-import React from "react";
-import clsx from "clsx";
+import React from "react"; // Импорт React для использования JSX и других функций React
+import clsx from "clsx"; // Импорт библиотеки clsx для условного соединения классов
 
 import {
   blueRadioButtonIcon,
@@ -8,51 +8,57 @@ import {
 
 import styles from "./step.module.scss";
 
-import useIsMobile from "../../utils/useIsMobile";
+import useIsMobile from "../../utils/useIsMobile"; // Импорт хука для определения, мобильное ли устройство
 
+
+// Объявление компонента Step с пропсами и значениями по умолчанию
 const Step = ({
-  mode = "blue",
+  mode = "blue", // Режим отображения шага, по умолчанию "blue"
   title,
   subtitle1,
   subtitle2,
-  isItemFullWidth = false,
-  isDone,
-  isLast,
-  isActive,
-  isSubtitle2,
+  isItemFullWidth = false, // Ширина элемента, по умолчанию не на всю ширину
+  isDone, // Статус завершенности шага
+  isLast, // Является ли шаг последним
+  isActive, // Активен ли шаг
+  isSubtitle2, // Наличие второго подзаголовка
 }) => {
-  const isMobile = useIsMobile();
+  const isMobile = useIsMobile(); // Определение, используется ли мобильное устройство
 
+  // Объект для маппинга классов фонового цвета в зависимости от режима
   const activeBgClassName = {
     green: styles.bgSuccessLightGreen,
     blue: styles.bgPrimaryLightBlue,
   };
 
+  // Функция для определения класса стиля линии прогресса
   const progressLine = () => {
     if (!isDone) {
-      return styles.bgAlphaBlack15;
+      return styles.bgAlphaBlack15; // Если шаг не завершен, используется прозрачный черный
     }
 
-    return styles.bgSuccessGreen;
+    return styles.bgSuccessGreen; // Если завершен, используется зелены
   };
 
+  // Функция для определения иконки прогресса
   const progressIcon = () => {
     if (isDone) {
-      return checkCircleFillIcon;
+      return checkCircleFillIcon; // Если шаг завершен, показывается заполненный круг
     }
 
     if (isActive && mode === "blue") {
-      return blueRadioButtonIcon;
+      return blueRadioButtonIcon; // Если шаг активен и режим синий, показывается синяя иконка
     }
 
     if (isActive && mode === "green") {
-      return checkCircleFillIcon;
+      return checkCircleFillIcon; // Если шаг активен и режим зеленый, показывается заполненный круг
     }
 
-    return blueRadioButtonIcon;
+    return blueRadioButtonIcon; // По умолчанию синяя иконка
   };
 
   return (
+    // Контейнер для шага с адаптивностью для мобильных и десктопов
     <div className={isMobile ? styles.mobileContainer : styles.desktopContainer}>
       <div
         className={clsx(
@@ -78,7 +84,7 @@ const Step = ({
             />
           </div>
           {!isLast && (
-            <div className={clsx(styles.progressLine, progressLine())} />
+            <div className={clsx(styles.progressLine, progressLine())} /> // Линия прогресса, если не последний шаг
           )}
         </div>
         <div className={styles.texts}>
@@ -95,7 +101,7 @@ const Step = ({
                 mode === "green" && styles.textPrimaryBlue
               )}
             >
-              {subtitle1}
+              {subtitle1} 
             </p>
             <p
               className={clsx(
@@ -123,4 +129,5 @@ const Step = ({
   );
 };
 
+// Экспорт компонента по умолчанию
 export default Step;

@@ -1,15 +1,18 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React from "react"; // Импорт React для использования JSX и хуков в компоненте
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation из библиотеки react-i18next для локализации
 
-import useIsMobile from "../../utils/useIsMobile";
+import useIsMobile from "../../utils/useIsMobile"; // Импорт пользовательского хука useIsMobile для определения, отображается ли контент на мобильном устройстве
 
 import styles from "./campusnavigation.module.scss";
 
+// Определение и экспорт функционального компонента CampusNavigation
 export const CampusNavigation = () => {
-  const isMobile = useIsMobile();
-  const { t } = useTranslation("campus");
+  const isMobile = useIsMobile(); // Использование хука useIsMobile для проверки, используется ли мобильное устройство
+  const { t } = useTranslation("campus"); // Использование хука useTranslation для обращения к набору переводов для "campus"
 
+  // Возвращение JSX разметки
   return(
+    // Контейнер с адаптивным классом стиля в зависимости от того, мобильное устройство или нет
     <div className={isMobile ? styles.mobileContainer : styles.container}>
       <div className={styles.main}>
         <h2 style={{marginTop: isMobile ? '' : '5vh'}}>{t("title")}</h2>

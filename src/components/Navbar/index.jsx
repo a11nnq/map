@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import clsx from "clsx";
-import { Link, useLocation } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import React, { useState } from "react"; // Импорт React и хука useState для использования состояния в функциональном компоненте
+import clsx from "clsx"; // Импорт функции clsx для условного объединения имен классов
+import { Link, useLocation } from "react-router-dom"; // Импорт Link и useLocation для навигации и доступа к текущему пути
+import { useTranslation } from "react-i18next";// Импорт хука useTranslation для локализации
 
+// Импорт компонентов Languages и Sidebar
 import { Languages } from "../Languages";
 import { Sidebar } from "../Sidebar/Sidebar";
 
@@ -12,18 +13,22 @@ import styles from "./style.module.scss";
 
 import useIsMobile from "../../utils/useIsMobile";
 
+// Определение компонента Navbar
 export const Navbar = () => {
-  const location = useLocation();
-  const { t } = useTranslation("navbar");
-  const isMobile = useIsMobile();
+  const location = useLocation(); // Получение текущего пути через хук useLocation
+  const { t } = useTranslation("navbar"); // Получение функции для локализации текста
+  const isMobile = useIsMobile(); // Определение, является ли устройство мобильным
 
+  // Локальное состояние для контроля видимости Sidebar
   const [isOpen, setIsOpen] = useState(false);
 
+  // Функция для переключения состояния видимости Sidebar
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
 
   return isMobile ? (
+    // Мобильная версия навбара
     <div className={styles.mobileContainer}>
       <div className={styles.navbar}>
         <button
@@ -53,6 +58,7 @@ export const Navbar = () => {
       )}
     </div>
   ) : (
+    // Десктопная версия навбара
     <div className={styles.container}>
       <div className={styles.nav}>
         <div className={styles.logo}>

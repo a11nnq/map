@@ -1,16 +1,19 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import React from "react"; // Импорт React для использования JSX и других функций React
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation для локализации
+import { Link } from "react-router-dom";// Импорт компонента Link для навигации без перезагрузки страницы
 
-import useIsMobile from "../../utils/useIsMobile";
+import useIsMobile from "../../utils/useIsMobile"; // Импорт хука useIsMobile для определения, используется ли мобильное устройство
 
 import styles from "./style.module.scss";
 
+// Экспорт функционального компонента Footer
 export const Footer = () => {
-  const { t } = useTranslation("footer");
-  const isMobile = useIsMobile();
+  const { t } = useTranslation("footer");   // Использование хука для получения функции t для перевода текста
+  const isMobile = useIsMobile(); //для определения, является ли устройство мобильным
 
+  // Условный рендеринг: разные версии компонента 
   return isMobile ? (
+    // Мобильная версия футера
     <div className={styles.mobileContainer}>
       <div className={styles.mainContent}>
         <div className={styles.col1}>
@@ -73,6 +76,7 @@ export const Footer = () => {
       </div>
     </div>
   ) : (
+    // Десктопная версия футера
     <div className={styles.container}>
       <div className={styles.mainContent}>
         <div className={styles.col1}>

@@ -1,5 +1,5 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React from "react"; // Импорт React для использования JSX и функциональности React
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation для поддержки многоязычности
 
 import { Footer } from "../../components/Footer";
 
@@ -7,10 +7,12 @@ import useIsMobile from "../../utils/useIsMobile";
 
 import styles from "./style.module.scss";
 
+// Определение и экспорт функционального компонента Academics
 export const Academics = () => {
-  const { t } = useTranslation("academics");
-  const isMobile = useIsMobile();
+  const { t } = useTranslation("academics");// Инициализация хука useTranslation для получения функции t для локализации текстов
+  const isMobile = useIsMobile();// Использование хука useIsMobile для проверки, отображается ли сайт на мобильном устройст
 
+  // Массив данных для первой секции, использующий функцию t для получения локализованных заголовков
   const section1data = [
     { title: `${t("section1.data.title1")}` },
     { title: `${t("section1.data.title2")}` },
@@ -87,6 +89,7 @@ export const Academics = () => {
   ];
 
   return (
+    // Фрагмент для группировки элементов без дополнительного DOM узла
     <>
       <div className={isMobile ? styles.mobileContainer : styles.container}>
         <div className={styles.main}>

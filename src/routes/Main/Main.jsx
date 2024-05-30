@@ -1,6 +1,6 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import React from "react"; // Импорт React для использования JSX и React-функций
+import { useNavigate } from "react-router-dom"; // Импорт хука useNavigate для программной навигации между страницами
+import { useTranslation } from "react-i18next"; // Импорт хука useTranslation для мультиязычной поддержки
 
 import TypingAnimation from "../../utils/Typing/typing";
 import { Footer } from "../../components/Footer";
@@ -18,21 +18,23 @@ import {
   blueCheck,
 } from "../../assets/images/index";
 
-import useIsMobile from "../../utils/useIsMobile";
+import useIsMobile from "../../utils/useIsMobile"; // Импорт пользовательского хука для определения, отображается ли контент на мобильном устройстве
 
 import styles from "./main.module.scss";
 
+// Определение и экспорт функционального компонента Main
 export const Main = () => {
-  const { t } = useTranslation("main");
-  const navigate = useNavigate();
-  const isMobile = useIsMobile();
+  const { t } = useTranslation("main"); // Использование хука useTranslation для локализации текстов
+  const navigate = useNavigate(); // Использование хука useNavigate для программной навигации
+  const isMobile = useIsMobile(); // Использование хука useIsMobile для проверки типа устройства
 
+  // Данные для карточек первого блока, содержащие изображения и тексты
   const cardData = [
     {
-      imgSrc: settings,
-      altText: "settings",
-      title: `${t("settingsTitle")}`,
-      subtitle: `${t("settingsSubtitle")}`,
+      imgSrc: settings, // Путь к изображению 
+      altText: "settings", // Альтернативный текст для изображения
+      title: `${t("settingsTitle")}`, // Заголовок
+      subtitle: `${t("settingsSubtitle")}`, // Подзаголовок
     },
     {
       imgSrc: person,
@@ -110,6 +112,7 @@ export const Main = () => {
   ];
 
   return  (
+    // Контейнер с адаптивными стилями
     <div className={isMobile ? styles.mobileContainer : styles.container}>
       <div className={styles.section1}>
         <div className={styles.contents}>

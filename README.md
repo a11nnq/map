@@ -4,7 +4,7 @@
 
 The Campus Information Mapping Project aims to create an interactive map for the campuses of K.I.Satpayev University. This project leverages modern technologies to provide users, particularly prospective students, with a comprehensive understanding of the university's geographical layout and key locations.
 
-# Features
+## Features
 1. Interactive Map
 Users can navigate through the campuses using an interactive map interface.
 Zoom in/out functionality for detailed exploration.

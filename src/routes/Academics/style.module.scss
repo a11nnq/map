@@ -87,11 +87,21 @@
 .mobileContainer {
   background: #f5f5f5;
   min-height: 100vh;
+  width: 100vw; /* Ensure it fits the viewport width exactly */
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 
   .main {
     padding: 0 10vw;
+    width: 100%;
+    box-sizing: border-box;
 
     .section1 {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+
       .topText {
         display: flex;
         flex-direction: column;
@@ -129,21 +139,21 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
-        justify-content: space-between; 
-        justify-self: center;
+        justify-content: center; /* Center the grid within the container */
+        width: 100%; /* Ensure the container takes full width */
 
         .card {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          justify-self: center;
-          width: 30vw;
-          min-height: max-content;
+          width: calc(100% - 20px); /* Subtract grid-gap to fit within the column */
+          max-width: 45vw; /* Constrain max width to prevent overflow */
           background: #fff;
-          border-color: #fff;
+          border: none; /* Remove any potential border issues */
           border-radius: 20px;
           padding: 12px;
+          box-sizing: border-box; /* Ensure padding is included in width */
 
           .title {
             font-family: "Abhaya Libre";

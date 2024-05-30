@@ -55,8 +55,15 @@ export const Sidebar = () => {
                 {t("contact")}
               </div>
             </Link>
-            <Link to="/" className={styles.button}>
-              {t("campus")}
+            <Link to="/campus-navigation" style={{ textDecoration: "none" }}>
+              <div
+                className={clsx(
+                  styles.button,
+                  location.pathname === "/campus-navigation" && styles.active
+                )}
+              >
+                {t("campus")}
+              </div>
             </Link>
           </div>
         </div>

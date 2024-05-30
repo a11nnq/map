@@ -12,7 +12,7 @@ export const CampusNavigation = () => {
   return(
     <div className={isMobile ? styles.mobileContainer : styles.container}>
       <div className={styles.main}>
-        <h2 style={{marginTop: '5vh'}}>{t("title")}</h2>
+        <h2 style={{marginTop: isMobile ? '' : '5vh'}}>{t("title")}</h2>
         <iframe
           style={{width: '95%', paddingLeft: isMobile ? '10px' : '8vh', paddingRight: isMobile ? '10px' : '8vh', paddingBottom: isMobile ? '10px' : '8vh', paddingTop: isMobile ? '10px' : '3vh', height: '80vh', flex: 'inline-flex'}}
           frameBorder={0} 

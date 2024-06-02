@@ -1,21 +1,84 @@
-# Campus Information Mapping Project
+<h1><b>Руководство Пользователя</b></h1>
 
-## Overview
+<p>Это интерактивное веб-приложение предоставляет вам доступ к информации о нашем учебном заведении, контактных данных, информации о поступлении и академических программах, а также навигации по кампусу.</p>
 
-The Campus Information Mapping Project aims to create an interactive map for the campuses of K.I.Satpayev University. This project leverages modern technologies to provide users, particularly prospective students, with a comprehensive understanding of the university's geographical layout and key locations.
+<h2>Начало Работы</h2>
 
-## Features
-1. Interactive Map
-Users can navigate through the campuses using an interactive map interface.
-Zoom in/out functionality for detailed exploration.
-Pan feature for easy movement across the map.
-2. Location Search
-Search functionality to quickly find specific buildings, facilities, or departments.
-Auto-suggestions for efficient search experience.
-3. Detailed Information
-Information pop-ups for each location, providing details such as building name, department, opening hours, and contact information.
-Integration with university databases to ensure up-to-date information.
-4. Customization Options
-Users can customize the map display based on their preferences, such as highlighting favorite locations or filtering by facility type.
-5. Mobile Compatibility
-Responsive design ensures seamless usability across various devices, including smartphones and tablets.
+<ol>
+  <li>
+    <div>
+      <b>Доступ к приложению:</b>
+      <p>-	Приложение доступно онлайн, и вы можете получить к нему доступ, используя любой современный веб-браузер.</p>
+      <p>-	Введите URL нашего сайта в адресную строку вашего браузера, например https://a11nnq.github.io/map/</p>
+      </div>
+  </li>
+  <li>
+    <div>
+      <b>Интерфейс пользователя:</b>
+     <p>-	Приложение автоматически адаптируется под размер экрана вашего устройства, обеспечивая комфортное использование как на настольных компьютерах, так и на мобильных устройствах.</p>
+    </div>
+  </li>
+</ol>
+<p align="center">
+  <img src="https://github.com/a11nnq/map/assets/123747028/4ec770cd-f553-4ebf-bfd8-dbe19b546da3)" alt="img1" width="220" />
+</p>
+<h2>Основные Разделы</h2>
+<ol>
+  <li>
+    <div>
+      <b>Главная страница (Main)</b>
+      <p>-	На главной странице вы найдете вводную информацию о нашем учебном заведении и основные новости.</p>
+      <p>-	Для перехода на главную страницу выберите "Главная" в навигационном меню.</p>
+      <p align="center">
+        <img src="https://github.com/a11nnq/map/assets/123747028/720053ae-4238-4fa3-99bb-b2b386579df7" alt="img2"/>
+      </p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <b>Контакты (Contacts)</b>
+     <p>-	Страница контактов содержит всю необходимую информацию для связи с нами, включая телефон, адрес электронной почты и физический адрес учебного заведения.</p>
+     <p>-	Для доступа к контактной информации выберите "Контакты" в навигационном меню.</p>
+      <p align="center">
+        <img src="https://github.com/a11nnq/map/assets/123747028/9f578425-71b1-4b1a-ba6e-78cc1cbe20e0" alt="img3"/>
+      </p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <b>Поступление (Admission)</b>
+      <p>- Информация о процессе поступления, необходимых документах и сроках подачи заявлений.</p>
+      <p>- Перейдите в раздел "Поступление", чтобы узнать больше.</p>
+      <p align="center">
+        <img src="https://github.com/a11nnq/map/assets/123747028/0935d71f-21d4-48ba-adaf-cd6a76f730ef" alt="img4"/>
+      </p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <b>Академические программы (Academics)</b>
+      <p>- Детальная информация о предлагаемых академических программах, курсах и профессорском составе.</p>
+      <p>- Выберите "Академические программы" для получения подробной информации.</p>
+      <p align="center">
+        <img src="https://github.com/a11nnq/map/assets/123747028/0935d71f-21d4-48ba-adaf-cd6a76f730ef" alt="img5"/>
+      </p>
+    </div>
+  </li>
+  <li>
+    <div>
+      <b>Навигация по кампусу (Campus Navigation)</b>
+      <p>- Интерактивная карта кампуса, которая поможет вам ориентироваться по его территории.</p>
+      <p>- Для использования карты перейдите в раздел "Навигация по кампусу".</p>
+      <p align="center">
+        <img src="https://github.com/a11nnq/map/assets/123747028/1ff97fc1-dd02-470d-b2ee-22c8a38096da" alt="img6"/>
+        <img src="https://github.com/a11nnq/map/assets/123747028/d476afd1-ac18-4e5a-9b3e-07a7186d1e03" alt="img7"/>
+        <img src="https://github.com/a11nnq/map/assets/123747028/2151af08-3170-43d6-b68d-e3c0285a2a4e" alt="img8"/>
+        <img src="https://github.com/a11nnq/map/assets/123747028/5daee950-c0a7-4a31-aa4d-3257f9e1d5d3" alt="img9"/>
+      </p>
+    </div>
+  </li>
+</ol>
+
+<h2>Мультиязычная Поддержка</h2>
+<p>Наше приложение поддерживает несколько языков. Вы можете изменить язык в настройках или использовать кнопку выбора языка, доступную в навигационном меню.</p>
+<img src="https://github.com/a11nnq/map/assets/123747028/5916021a-2b36-4751-9cf9-710307341152" alt="img9"/>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/map/static/css/main.bb1d4af0.css",
-    "main.js": "/map/static/js/main.bab9b632.js",
+    "main.css": "/map/static/css/main.95d0819a.css",
+    "main.js": "/map/static/js/main.32bd578d.js",
     "static/media/student_concil.png": "/map/static/media/student_concil.6e47e9573580454e53d7.png",
     "static/media/uni2.jpeg": "/map/static/media/uni2.a43b8a80249d4d422023.jpeg",
     "static/media/uni1.jpg": "/map/static/media/uni1.2dc90b552a582b2c8a61.jpg",
@@ -26,11 +26,11 @@
     "index.html": "/map/index.html",
     "static/media/blue-radiobutton.svg": "/map/static/media/blue-radiobutton.afc5a8f3c10f0d78ebe0eb1d1bc622d2.svg",
     "static/media/circle.svg": "/map/static/media/circle.706d24670598b7124d91bb4c0dc47212.svg",
-    "main.bb1d4af0.css.map": "/map/static/css/main.bb1d4af0.css.map",
-    "main.bab9b632.js.map": "/map/static/js/main.bab9b632.js.map"
+    "main.95d0819a.css.map": "/map/static/css/main.95d0819a.css.map",
+    "main.32bd578d.js.map": "/map/static/js/main.32bd578d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb1d4af0.css",
-    "static/js/main.bab9b632.js"
+    "static/css/main.95d0819a.css",
+    "static/js/main.32bd578d.js"
   ]
 }
